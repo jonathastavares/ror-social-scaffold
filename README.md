@@ -52,6 +52,10 @@
 
 - Visit http://127.0.0.1:3000 to check if it's working.
 
+## Live Version
+
+- Check out the [Live Version.](https://murmuring-savannah-42142.herokuapp.com/)
+
 # Author
 
 👤 **Jonathas Tavares**

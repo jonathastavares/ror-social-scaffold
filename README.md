@@ -1,93 +1,69 @@
-# Scaffold for social media app with Ruby on Rails
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+# Social Media Website
+
+> This is a social media website project, built for learning purposes.
+> In this project, I managed associations between Models, created methods for Friendships and some helpers.
+> This project helps me to understand how associations, routes, helpers, and queries works.
+
+![screenshot](/screenshot.jpg)
+
+> The page above is the index page, after logged in;
+
+![screenshot](/screenshot2.jpg)
+
+> The page above is the Users page, which show all currently registered users.
+
+![screenshot](/screenshot3.jpg)
+
+> The page above is the sign in page.
 
 ## Built With
 
-- Ruby v2.7.0
-- Ruby on Rails v5.2.4
+- Ruby
+- Ruby on Rails
+- PostgreSQL
+- Devise
+- Bootstrap
 
-## Live Demo
+# How to use
 
-TBA
+- Make sure you have Ruby and Rails installed on your computer. If you don't have it, simply install [Ruby](https://www.ruby-lang.org/pt/documentation/installation/), and follow this tutorial to install [rails](https://gorails.com/setup/ubuntu/20.10).
 
+- Use the terminal to navigate to a folder where you want to clone the files, for example C:
 
-## Getting Started
+- Then, clone this repository to your computer. You clone a repository with:
 
-To get a local copy up and running follow these simple example steps.
+> git clone https://github.com/jonathastavares/ror-social-scaffold.git
 
-### Prerequisites
+- Remember that the files will be cloned to the current directory where you are at.
 
-Ruby: 2.6.3
-Rails: 5.2.3
-Postgres: >=9.5
+- After cloning the repository, navigate through the command line to the folder where the repository was cloned, and run the command 'bundle install'.
 
-### Setup
+- Now it is time to create and migrate our database, run the following command:
 
-Instal gems with:
+> rake db:setup
 
-```
-bundle install
-```
+- Then run the following command:
 
-Setup database with:
+> rake db:migrate
 
-```
-   rails db:create
-   rails db:migrate
-```
+- After installing all dependencies, use the command 'rails server' to start the server for the application.
 
-### Github Actions
+- Visit http://127.0.0.1:3000 to check if it's working.
 
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
+# Author
 
-1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
-2. Create the `feature/branch` and push.
-3. Start working on your milestone as usual.
-4. Open a PR from the `feature/branch` when your work is done.
+👤 **Jonathas Tavares**
 
+- Github: [Jonathas Tavares](https://github.com/jonathastavares)
+- Twitter: [Jonathas Tavares](https://twitter.com/jhstavares)
+- Linkedin: [Jonathas Tavares](https://www.linkedin.com/in/jonathas-tavares-24b8bba3/)
 
-### Usage
-
-Start server with:
-
-```
-    rails server
-```
-
-Open `http://localhost:3000/` in your browser.
-
-### Run tests
-
-```
-    rpsec --format documentation
-```
-
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
-
-### Deployment
-
-TBA
-
-## Authors
-
-TBA
-
-## 🤝 Contributing
+# 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
-
-## Show your support
+# Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-TBA
-
-## 📝 License
-
-TBA
-
